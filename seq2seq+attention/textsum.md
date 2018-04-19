@@ -29,7 +29,11 @@ REAMDE：
 
 > gbk，utf-8等编码是怎么回事
 
+> tmp-放原文件数据集
+
 ### tensorflowAIP接口学习 ###
+
+tf.Example:[https://blog.csdn.net/u010223750/article/details/70482498](https://blog.csdn.net/u010223750/article/details/70482498)
 
 ### python模块学习 ###
 
@@ -61,3 +65,18 @@ REAMDE：
 - sys.path: 获取指定模块搜索路径的字符串集合，可以将写好的模块放在得到的某个路径下，就可以在程序中import时正确找到。
 - sys.platform: 获取当前系统平台。
 - sys.stdin,sys.stdout,sys.stderr: stdin , stdout , 以及stderr 变量包含与标准I/O 流对应的流对象. 如果需要更好地控制输出,而print 不能满足你的要求, 它们就是你所需要的. 你也可以替换它们, 这时候你就可以重定向输出和输入到其它设备( device ), 或者以非标准的方式处理它们
+
+5、from collections import [namedtuple](https://blog.csdn.net/helei001/article/details/52692128)
+
+> 同c语言的struct相似，给每个元素命名，并赋值。
+
+6、[six.moves.queue](http://nullege.com/codes/search/six.moves.queue)
+
+> queue——队列；Queue.Queue(QUEUE_NUM_BATCH * self._hps.batch_size)——设定队列的长度
+
+7、range和xrange的区别
+
+后者返回的是一个生成器，不需要像前者那样占用很大的内存空间，而且可以无限生成很多数。
+
+8、线程：[threading](http://www.runoob.com/python/python-multithreading.html)
+

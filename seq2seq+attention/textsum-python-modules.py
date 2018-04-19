@@ -63,6 +63,9 @@ lily 18  female teacher
 #---------------------------------------
 
 # 4、sys
-import sys
-print(sys.platform)
-print(sys.path)
+# import sys
+# print(sys.platform)
+# print(sys.path)
+
+# 5、six.moves.queue
+ 

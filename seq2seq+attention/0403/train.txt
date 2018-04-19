@@ -1,0 +1,4 @@
+Train/1.jpg 0
+Train/2.jpg 1
+Train/3.jpg 1
+Train/4.jpg 1
